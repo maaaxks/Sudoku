@@ -145,7 +145,7 @@ void handmode(int** field, int size) {
         if (is_sudoku_solved(field, size)) {
             // Очистить экран
             system("cls");  // Windows
-            printf("🎉 Congratulations! You solved the Sudoku! 🎉\n");
+            printf("Congratulations! You solved the Sudoku!\n");
             break;
         }
         if (input == 'q') {
