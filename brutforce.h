@@ -90,27 +90,3 @@ int brutforce(int** field, int size){
     }
     return 0; system("cls"); printf("Unreal sudoku,bro, sry. Rerun code"); 
 }
-/*  //Фунция для определения числа, которое будет заспиано в пустую ячейку
-    int brutnum(int** field, int size, int row, int col) {
-        if (*(*(field + row) + col) != 0) {  
-            return *(*(field + row) + col);}
-        else{
-            for (int num = 1; num <= size; num++) { 
-                if (is_uniqueb(field, row, col, num, size)) {  
-                    return num;  
-                }
-            }}
-        return 0;
-    } 
-    for (int i=0;i<size;i++){
-        for (int j=0;j<size;j++){
-            *(*(field+i)+j) =brutnum(field, size, i, j);
-            if (*(*(field+i)+j)==0){break;break;printf("Unreal sudoku, rerun code(");}
-            set_matrix_position(i, j);
-            printf("%d", *(*(field+i)+j));
-            fflush(stdout);
-            sleep(1);
-        }
-        }
-}
-*/
